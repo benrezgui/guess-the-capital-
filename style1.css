@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        background: cornflowerblue;
+        height: 100vh;
+        font-family: system-ui;
+    }
+    section{
+        width: 50vw;
+    }
+    .navbar{
+        display: flex;
+        align-items:center;
+    }
+    nav lu{
+        display: inline-block;
+        list-style-type: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 70px;
+    
+    }
+    header ul li a:hover{
+        background-color: aqua;
+    }
+    .container{
+        max-width: 1200px;
+        margin: auto;
+        padding-left: auto;
+        padding-right: auto;
+        width: 100%;
+    
+    }
+    .center{
+        display: block;
+        margin: auto;
+        padding-left: auto;
+        padding-right: auto;
+        width: 200%;
+    
+    
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .col-2{
+        flex-basis: 50%;
+        min-width: 250px;
+    
+    }
+    .col-2 img{
+        max-width: 200%;
+        padding: 60px 0;
+    }
+    .col-2 h1{
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0;
+    }
+    .btn{
+        display: inline-block;
+        background-color: blueviolet;
+        color:aliceblue;
+        padding: 8px 30px;
+        margin: 30px 0;
+        border-radius: 30px;
+        
+    
+    }
+     .btn:hover{
+        background-color: bisque;
+     }
+     a{
+        text-decoration: none;
+        color: brown;
+     }
+     .main img{
+        max-width: 1200px;
+        margin: auto;
+        padding-left: auto;
+        padding-right: auto;
+        width: 50%;
+    
+    }
+
+.x{
+    
+    display: inline-block;
+    padding: 0 16px 0 12px;
+    width: 100%;
+    line-height: 30px;
+    height: 32px;
+    border: 1px solid #dddbda;
+    border-radius: 4px;
+    background-color: #fff;
+    color: rgb(8, 7, 7);
+    transition: border .1s linear,background-color .1s linear;
+    
+
+}
